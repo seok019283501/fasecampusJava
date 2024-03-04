@@ -14,5 +14,9 @@ public class PolyTest {
         ani.eat();
         //DownCasting
         ((Cat)ani).night();
+        //Overloading : 정적바인딩 = 컴파일 시점에서 사용될 메서드가 결정되는 바인딩
+        // -> 프로그램의 실행속도와 무관
+        //Override(재정의) : 동적바인딩 = 실행시점에서 사용될 메서드가 결정되는 바인딩
+        // -> 프로그램의 실행속도와 관계가 있다.
     }
 }
