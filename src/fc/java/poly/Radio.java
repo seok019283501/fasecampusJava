@@ -1,6 +1,6 @@
 package fc.java.poly;
 
-public class Radio extends RemoCon{
+public class Radio implements RemoCon{
 
     @Override
     public void chUp() {
@@ -20,5 +20,10 @@ public class Radio extends RemoCon{
     @Override
     public void volumDown() {
         System.out.println("라디오 소리가 내려간다.");
+    }
+
+    @Override
+    public void internet() {
+        System.out.println("라디오에서는 인터넷 지원이 안됩니다.");
     }
 }
